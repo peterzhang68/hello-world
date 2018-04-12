@@ -10,6 +10,8 @@ LOCAL_JAVA_LIBRARIES := \
 	
 LOCAL_PACKAGE_NAME := TVSample
 
+#added my comment 2018/4/12
+
 include $(BUILD_PACKAGE)
 include $(CLEAR_VARS)
 
