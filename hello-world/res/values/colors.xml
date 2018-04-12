@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="tv_background">#fff74dff</drawable>
+    <drawable name="translucent_background">#00000000</drawable>
+
+    <color name="yellow">#FFf9da06</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#FF888888</color>
+    <color name="black">#FF1B1A1A</color>
+    <color name="lightgray">#99AA9999</color>
+    <color name="translucent_background">#b1000000</color>
+    <color name="translucent">#00000000</color>
+    <color name="demo_mode">#333367</color> <!-- 智能电视背景色 -->
+
+</resources>

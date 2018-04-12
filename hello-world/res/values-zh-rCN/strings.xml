@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="smart_select">选择演示模式</string>
+    <string name="smart_key">智能电视</string>
+    <string name="smart_value">智能电视简介  </string>
+    <string name="motion_key">流畅平滑处理</string>
+    <string name="motion_value">流畅平滑处理技术简介</string>
+    <string name="feature_key">功能介绍</string>
+    <string name="frature_value">特长功能简介</string>
+    <string name="action_settings">Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Demo</string>
+    <string name="text0">日本原装液晶面板，卓越品质，非凡打造。</string>
+    <string name="text1">实现更高的亮度和对比度，新一代液晶屏技术的完美体现。</string>
+    <string name="text2">在线视频服务，让您轻松享受最新高清在线视频。</string>
+    <string name="text3">使运动场景更加清晰流畅。</string>
+    <string name="text4">专为电视打造的Android操作系统，支持大屏让使用更流畅，稳定性、兼容性更强。</string>
+    <string name="text5">为您提供专为电视定制的海量应用。</string>
+    <string name="text6">全新处理器，给您带来前所未有的急速智能体验。</string>
+    <string name="text7">内置4G内存，并可支持高达32G的SD卡扩展存储空间。</string>
+    <!-- Lenovo tv  -->
+    <string name="text_lenovo_0">呈现明亮、清晰、鲜艳的3D影像，为您提供栩栩如生、身临其境的3D体验。</string>
+	<string name="text_lenovo_1">专为电视打造的Android平台，支持大屏让使用更流畅，稳定性、兼容性更强。</string>
+    <string name="text_lenovo_2">视云影院，让您在线享受海量正版大片。</string>
+	<string name="text_lenovo_3">友约视频通话，拉近您与远方亲人的距离。</string>
+	<string name="text_lenovo_4">订制大型体感、3D、网络等游戏，娱乐您的生活。</string>
+	<string name="text_lenovo_5">智能电子节目单，直播电视节目随心选择。</string>
+	<string name="text_lenovo_6">空鼠遥控器，操作便捷，简易您的生活。</string>
+	<string name="text_lenovo_7">WiFi双天线，信号双发双收，倍增您的网速。</string>
+	<string name="text_lenovo_8">通过智能升级卡升级电视硬件，让您的电视永不过时。</string>
+    <string name="tv_size">52</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/demo_mode" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/smart_select"
+        android:textSize="100sp" />
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <!-- 定义一个四行两列的网格布局 -->
+
+        <Button
+            android:id="@+id/button_tv"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="200dp"
+            android:text="@string/smart_key"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/button_demo"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_tv"
+            android:layout_marginLeft="200dp"
+            android:text="@string/feature_key"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/tv_feature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/button_demo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="200dp"
+            android:text="@string/frature_value"
+            android:textSize="60sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/button_tv"
+            android:layout_alignLeft="@id/tv_feature"
+            android:text="@string/smart_value"
+            android:textSize="60sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

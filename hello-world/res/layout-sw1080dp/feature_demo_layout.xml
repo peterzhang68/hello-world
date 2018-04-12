@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <AbsoluteLayout
+        android:layout_width="1921dp"
+        android:layout_height="1087dp"
+        android:background="@android:color/transparent" >
+
+        <!-- Top area -->
+
+        <ImageView
+            android:id="@+id/bubble_big_top_left"
+            android:layout_width="865dp"
+            android:layout_height="865dp"
+            android:layout_x="-259dp"
+            android:layout_y="-259dp"
+            android:src="@drawable/bubble" />
+
+        <RelativeLayout
+            android:id="@+id/bubble_big_top_right"
+            android:layout_width="576dp"
+            android:layout_height="576dp"
+            android:layout_x="1485dp"
+            android:layout_y="-187dp"
+            android:background="@drawable/bubble" >
+
+            <TextView
+                android:id="@+id/TextViewInchTop"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingTop="55dp"
+                android:text="50"
+                android:textColor="@android:color/black"
+                android:textSize="144sp" />
+        </RelativeLayout>
+        <!-- small bubble -->
+
+        <ImageView
+            android:id="@+id/image_bubble0"
+            android:layout_width="374dp"
+            android:layout_height="374dp"
+            android:layout_x="396dp"
+            android:layout_y="-115dp"
+            android:src="@drawable/bubble" />
+
+        <ImageView
+            android:id="@+id/image_bubble1"
+            android:layout_width="374dp"
+            android:layout_height="374dp"
+            android:layout_x="612dp"
+            android:layout_y="-115dp"
+            android:src="@drawable/bubble" />
+
+        <ImageView
+            android:id="@+id/image_bubble2"
+            android:layout_width="374dp"
+            android:layout_height="374dp"
+            android:layout_x="828dp"
+            android:layout_y="-115dp"
+            android:src="@drawable/bubble" />
+
+        <ImageView
+            android:id="@+id/image_bubble3"
+            android:layout_width="374dp"
+            android:layout_height="374dp"
+            android:layout_x="1044dp"
+            android:layout_y="-115dp"
+            android:src="@drawable/bubble" />
+
+        <ImageView
+            android:id="@+id/image_bubble4"
+            android:layout_width="374dp"
+            android:layout_height="374dp"
+            android:layout_x="1260dp"
+            android:layout_y="-115dp"
+            android:src="@drawable/bubble" />
+        <!-- small icon -->
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image0"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="451dp"
+            android:layout_y="30dp"
+            android:src="@drawable/pic1" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image1"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="667dp"
+            android:layout_y="30dp"
+            android:src="@drawable/pic2" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image2"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="883dp"
+            android:layout_y="30dp"
+            android:src="@drawable/pic3" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image3"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1099dp"
+            android:layout_y="30dp"
+            android:src="@drawable/pic4" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image4"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1315dp"
+            android:layout_y="30dp"
+            android:src="@drawable/pic5" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image5"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1315dp"
+            android:layout_y="30dp"
+            android:src="@drawable/pic6" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image6"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1315dp"
+            android:layout_y="30dp"
+            android:src="@drawable/pic7" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image7"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1315dp"
+            android:layout_y="30dp"
+            android:src="@drawable/pic8" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image8"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1315dp"
+            android:layout_y="30dp"
+            android:src="@drawable/pic9" />
+        <!-- Tv size -->
+
+
+        <!-- left introduce icon -->
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_x="200dp"
+            android:layout_y="260dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/iv_3d_1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/tv_3d" />
+
+            <ImageView
+                android:id="@+id/iv_3d_2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/surface_3d" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/display0"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="200dp"
+            android:layout_y="260dp"
+            android:src="@drawable/display2" />
+
+        <ImageView
+            android:id="@+id/display1"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="200dp"
+            android:layout_y="260dp"
+            android:src="@drawable/display3" />
+
+        <ImageView
+            android:id="@+id/display2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="200dp"
+            android:layout_y="260dp"
+            android:src="@drawable/display4" />
+
+        <ImageView
+            android:id="@+id/display3"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="200dp"
+            android:layout_y="260dp"
+            android:src="@drawable/display5" />
+
+        <ImageView
+            android:id="@+id/display4"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="200dp"
+            android:layout_y="260dp"
+            android:src="@drawable/display6" />
+
+        <ImageView
+            android:id="@+id/display5"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="200dp"
+            android:layout_y="260dp"
+            android:src="@drawable/display7" />
+
+        <ImageView
+            android:id="@+id/display6"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="200dp"
+            android:layout_y="260dp"
+            android:src="@drawable/display8" />
+
+        <ImageView
+            android:id="@+id/display7"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="200dp"
+            android:layout_y="260dp"
+            android:src="@drawable/display9" />
+        
+         <ImageView
+            android:id="@+id/display8"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="200dp"
+            android:layout_y="260dp"
+            android:src="@drawable/display9" />
+
+        <TextView
+            android:id="@+id/textViewTop"
+            android:layout_width="360dp"
+            android:layout_height="115dp"
+            android:layout_x="43dp"
+            android:layout_y="430dp"
+            android:background="@drawable/background"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:paddingTop="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <!-- Bottom area -->
+
+        <ImageView
+            android:id="@+id/bubble_big_bottom_left"
+            android:layout_width="865dp"
+            android:layout_height="865dp"
+            android:layout_x="-259dp"
+            android:layout_y="432dp"
+            android:src="@drawable/bubble" />
+
+        <RelativeLayout
+            android:id="@+id/bubble_big_bottom_right"
+            android:layout_width="576dp"
+            android:layout_height="576dp"
+            android:layout_x="1485dp"
+            android:layout_y="720dp"
+            android:background="@drawable/bubble" >
+
+            <TextView
+                android:id="@+id/TextViewInchBottom"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="55dp"
+                android:textColor="@android:color/black"
+                android:textSize="144sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/image_bubble0_2"
+            android:layout_width="374dp"
+            android:layout_height="374dp"
+            android:layout_x="396dp"
+            android:layout_y="793dp"
+            android:src="@drawable/bubble" />
+
+        <ImageView
+            android:id="@+id/image_bubble1_2"
+            android:layout_width="374dp"
+            android:layout_height="374dp"
+            android:layout_x="612dp"
+            android:layout_y="793dp"
+            android:src="@drawable/bubble" />
+
+        <ImageView
+            android:id="@+id/image_bubble2_2"
+            android:layout_width="374dp"
+            android:layout_height="374dp"
+            android:layout_x="828dp"
+            android:layout_y="793dp"
+            android:src="@drawable/bubble" />
+
+        <ImageView
+            android:id="@+id/image_bubble3_2"
+            android:layout_width="374dp"
+            android:layout_height="374dp"
+            android:layout_x="1044dp"
+            android:layout_y="793dp"
+            android:src="@drawable/bubble" />
+
+        <ImageView
+            android:id="@+id/image_bubble4_2"
+            android:layout_width="374dp"
+            android:layout_height="374dp"
+            android:layout_x="1260dp"
+            android:layout_y="793dp"
+            android:src="@drawable/bubble" />
+        
+        <FrameLayout
+            android:id="@+id/container_bottom"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_x="200dp"
+            android:layout_y="750dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/iv_3d_1_bottom"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/tv_3d" />
+
+            <ImageView
+                android:id="@+id/iv_3d_2_bottom"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/surface_3d" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/display0_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="220dp"
+            android:layout_y="750dp"
+            android:src="@drawable/display2" />
+
+        <ImageView
+            android:id="@+id/display1_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="220dp"
+            android:layout_y="750dp"
+            android:src="@drawable/display3" />
+
+        <ImageView
+            android:id="@+id/display2_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="220dp"
+            android:layout_y="750dp"
+            android:src="@drawable/display4" />
+
+        <ImageView
+            android:id="@+id/display3_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="220dp"
+            android:layout_y="750dp"
+            android:src="@drawable/display5" />
+
+        <ImageView
+            android:id="@+id/display4_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="220dp"
+            android:layout_y="750dp"
+            android:src="@drawable/display6" />
+
+        <ImageView
+            android:id="@+id/display5_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="220dp"
+            android:layout_y="750dp"
+            android:src="@drawable/display7" />
+
+        <ImageView
+            android:id="@+id/display6_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="220dp"
+            android:layout_y="750dp"
+            android:src="@drawable/display8" />
+
+        <ImageView
+            android:id="@+id/display7_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="220dp"
+            android:layout_y="750dp"
+            android:src="@drawable/display9" />
+        
+         <ImageView
+            android:id="@+id/display8_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="220dp"
+            android:layout_y="750dp"
+            android:src="@drawable/display9" />
+
+        <TextView
+            android:id="@+id/textViewBottom"
+            android:layout_width="360dp"
+            android:layout_height="115dp"
+            android:layout_x="43dp"
+            android:layout_y="490dp"
+            android:background="@drawable/background"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:paddingTop="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image0_2"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="451dp"
+            android:layout_y="900dp"
+            android:src="@drawable/pic1" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image1_2"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="667dp"
+            android:layout_y="900dp"
+            android:src="@drawable/pic2" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image2_2"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="883dp"
+            android:layout_y="900dp"
+            android:src="@drawable/pic3" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image3_2"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1099dp"
+            android:layout_y="900dp"
+            android:src="@drawable/pic4" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image4_2"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1315dp"
+            android:layout_y="900dp"
+            android:src="@drawable/pic5" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image5_2"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1315dp"
+            android:layout_y="900dp"
+            android:src="@drawable/pic6" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image6_2"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1315dp"
+            android:layout_y="900dp"
+            android:src="@drawable/pic7" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image7_2"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1315dp"
+            android:layout_y="900dp"
+            android:src="@drawable/pic8" />
+
+        <com.lenovo.demo.tv.SmallIconImage
+            android:id="@+id/image8_2"
+            android:layout_width="230dp"
+            android:layout_height="144dp"
+            android:layout_x="1315dp"
+            android:layout_y="900dp"
+            android:src="@drawable/pic9" />
+    </AbsoluteLayout>
+
+</RelativeLayout>
